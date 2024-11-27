@@ -50,6 +50,7 @@ export const Game =()=>{
                 <div className='col-span-2 bg-slate-900 w-full flex justify-center'>
                     <div className='pt-8'   >
                     <Button onClick={()=>{
+                        console.log(setChess,started);
                                 socket.send(JSON.stringify({
                                     type:INIT_GAME
                                 }))
