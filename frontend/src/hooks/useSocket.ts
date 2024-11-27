@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-const WS_URL = "https://cheesseychessreal.onrender.com";
+const WS_URL = "https://cheesseychess-o3jz.onrender.com";
 export const useSocket = ()=>{
     const [socket, setSocket]=useState<WebSocket |null>(null);
     useEffect(()=>{
